@@ -18,9 +18,12 @@
 # Exercise 3
 # Using a forloop, print just the last two food strings from foods.
 
-# for index, food in enumerate(foods):
-#     if index >= 1:
+# for food in foods:
+#     if food == foods[-1] or food == foods[-2]:
 #         print(food)
+
+# for food in foods[-3:]:
+#     print(food)
 
 
 # Exercise 4
